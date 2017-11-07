@@ -5,7 +5,7 @@ var counter = parseInt(count);
 let button1 = document.getElementById('1');
 button1.addEventListener('click', function(){
 var num1 = Math.random();
-var num2 = num1*10 +20;
+var num2 = num1*10+20;
 var count = num2.toFixed();
 var par = parseInt(count)
 counter = counter + par;
