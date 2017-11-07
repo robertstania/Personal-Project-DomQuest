@@ -1,0 +1,64 @@
+*{
+  padding: 0;
+  margin: 0
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-image: url("image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100%;
+  min-height: 100vh;
+}
+
+.box {
+  width: 40vh;
+  height: 30vh;
+  float: right;
+  margin-top: 100px;
+  margin-right: 8%;
+  display: inline-block;
+  border-radius: 50px;
+  background-color: black;
+  padding-top: 30px;
+  font-family:fantasy;
+  font-size: larger;
+  color: white;
+  border: 1px solid #bbbbbb;
+  box-shadow: 2px 2px 1px #444;;
+}
+ .container{
+   max-width: 500vh;
+   max-height: 500vh;
+   position:relative;
+ }
+
+.header{
+  background-color: black;
+  font-family:fantasy;
+  font-size: larger;
+  color: white;
+  border: 1px solid #bbbbbb;
+  box-shadow: 2px 2px 1px #444;
+  border-radius: 50px;
+}
+
+button{
+  margin-top: 5px;
+  width: 100px;
+  color: white;
+  text-align: center;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 2px 2px 1px #444;
+  margin: 0px auto;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: small;
+  font-family:fantasy;
+}
+button:hover {
+    background-color: aqua;
+}
