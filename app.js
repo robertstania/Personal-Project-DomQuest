@@ -10,7 +10,7 @@ let button1 = document.getElementById('1');
 //adds click functionality to the button1 event target
 button1.addEventListener('click', function(){
 //num returns a random number between the specified values 10 and 20
-var num = Math.random()*10+20;
+var num = Math.random()*10+10;
 //formats num using fixed-point notation
 var count = num.toFixed();
 //parses the count string argument and returns an integer of the specified radix
@@ -26,7 +26,7 @@ let button2 = document.getElementById('2');
 //adds click functionality to the button2 event target
 button2.addEventListener('click', function(){
 //num returns a random number between the specified values 30 and 50
-var num = Math.random()*30+50;
+var num = Math.random()*20+30;
 //formats num using fixed-point notation
 var count = num.toFixed();
 //parses the count string argument and returns an integer of the specified radix(the base in mathematical numeral systems).
@@ -42,7 +42,7 @@ let button3 = document.getElementById('3');
 //adds click functionality to the button3 event target
 button3.addEventListener('click', function(){
 //num returns a random number between the specified values 70 and 100
-var num = Math.random()*70+100;
+var num = Math.random()*30+70;
 //formats num using fixed-point notation
 var count = num.toFixed();
 //parses the count string argument and returns an integer of the specified radix(the base in mathematical numeral systems).
