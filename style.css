@@ -1,6 +1,7 @@
 *{
   padding: 0;
   margin: 0
+  display: inline-block;
   box-sizing: border-box;
 }
 
@@ -14,26 +15,15 @@ body {
 }
 
 .box {
-  width: 40vh;
   height: 30vh;
-  float: right;
-  margin-top: 100px;
-  margin-right: 6%;
-  display: inline-block;
   border-radius: 50px;
   background-color: black;
-  padding-top: 30px;
   font-family:fantasy;
   font-size: larger;
   color: white;
   border: 1px solid #bbbbbb;
   box-shadow: 2px 2px 1px #444;;
 }
- .container{
-   max-width: 500vh;
-   max-height: 500vh;
-   position:relative;
- }
 
 .header{
   background-color: black;
@@ -45,8 +35,8 @@ body {
   border-radius: 50px;
 }
 
-button{
-  margin-top: 5px;
+.button{
+  margin-top: 50%;
   width: 100px;
   color: white;
   text-align: center;
@@ -59,6 +49,7 @@ button{
   font-size: small;
   font-family:fantasy;
 }
-button:hover {
+
+.button:hover {
     background-color: aqua;
 }
